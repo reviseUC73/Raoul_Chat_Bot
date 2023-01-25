@@ -1,0 +1,5 @@
+TOKEN_ = "Your_token"
+ClientID = "Your_client_id"
+ChanalID = "Your_chanal_id"
+GPT_ORG = "GPT_ORG"
+GBT_KEY = "GFT_KEY"
