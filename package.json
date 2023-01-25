@@ -1,0 +1,24 @@
+{
+  "name": "raoul_chat_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reviseUC73/Raoul_Chat_Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reviseUC73/Raoul_Chat_Bot/issues"
+  },
+  "homepage": "https://github.com/reviseUC73/Raoul_Chat_Bot#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3"
+  }
+}
