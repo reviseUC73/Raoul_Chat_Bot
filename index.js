@@ -57,9 +57,13 @@ client.on("interactionCreate", async (interaction) => {
       const completion = await openai.createCompletion({
         model: "text-davinci-003",
         prompt: text_,
+        max_tokens: 2048,
+        temperature: 0.9,
+        
       });
       const response = completion.data.choices[0].text;
-      console.log(response);
+      // console.log(response);
+      console.log(typeof response);
       await interaction.reply(response);
       
     } catch (error) {
