@@ -12,14 +12,15 @@ const commands = [
   {
     name: 'chat_gbt',
     description: 'Use this command to use the Chat GBT helper',
-  //   options : [
-  //     {
-  //       name: 'Message-to-OpenAI',
-  //       type:3,
-  //       require:true,
-  //       description: 'Type the message you would like to send to OpenAI',
-  //     }
-  //   ]
+    options : [
+      {
+        name: 'message',
+        type:3,
+        require:true,
+        description: 'Type the message you would like to send to OpenAI',
+        max_length: 6000
+      }
+    ]
   },
   
 ];
